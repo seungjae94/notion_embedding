@@ -1,6 +1,9 @@
 # notion_embedding
 노션에 임베딩할 웹 페이지를 만드는 용도
 
+# 코드 삽입하기
+https://stackoverflow.com/questions/62029757/nicely-formatted-python-code-in-html-files
+
 # pages
 
 https://seungjae94.github.io/notion_embedding/input%20tag/test.html
