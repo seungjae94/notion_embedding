@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Converter</title>
+
+    <style>
+        .button {
+            font-weight: bold;
+        }
+
+        .left_box {
+            float: left;
+            width: 45%;
+            height: 500px;
+            padding: 10px;
+        }
+
+        .right_box {
+            float: right;
+            width: 45%;
+            height: 500px;
+            padding: 10px;
+        }
+
+        #html_code {
+            height: 90%;
+            width: 95%;
+        }
+
+        #result {
+            height: 90%;
+            width: 95%;
+        }
+    </style>
+</head>
+<body>
+    <div class="left_box">
+        <h3>HTML 코드</h3>
+        <textarea id="html_code"></textarea><br>
+        <button class="button" onclick="convert()">Convert</button>
+    </div>
+
+    <div class="right_box">
+        <h3>결과</h3>
+        <textarea id="result"></textarea>
+    </div>
+
+    <script>
+        const fs = require('fs');
+
+        async function convert() {
+            let html_code = document.getElementById('html_code').value;
+            
+            let result = html_code.toString().replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+
+            document.getElementById('result').value = result;
+        }
+    </script>
+
+</body>
+</html>
