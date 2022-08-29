@@ -25,7 +25,7 @@
             padding: 10px;
         }
 
-        #html_code {
+        #code {
             height: 90%;
             width: 95%;
         }
@@ -35,11 +35,18 @@
             width: 95%;
         }
     </style>
+
+    <script src="converter.js"></script>
 </head>
 <body>
     <div class="left_box">
-        <h3>HTML 코드</h3>
-        <textarea id="html_code"></textarea><br>
+        <h3>코드</h3>
+        <textarea id="code"></textarea><br>
+        <select id="language">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select><br><br>
         <button class="button" onclick="convert()">Convert</button>
     </div>
 
@@ -47,18 +54,5 @@
         <h3>결과</h3>
         <textarea id="result"></textarea>
     </div>
-
-    <script>
-        const fs = require('fs');
-
-        async function convert() {
-            let html_code = document.getElementById('html_code').value;
-            
-            let result = html_code.toString().replaceAll('<', '&lt;').replaceAll('>', '&gt;');
-
-            document.getElementById('result').value = result;
-        }
-    </script>
-
 </body>
 </html>
