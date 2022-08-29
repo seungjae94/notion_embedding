@@ -9,7 +9,8 @@
 
 ### 참고
 
-https://stackoverflow.com/questions/62029757/nicely-formatted-python-code-in-html-files
+[1] https://stackoverflow.com/questions/62029757/nicely-formatted-python-code-in-html-files
+[2] https://hdevstudy.tistory.com/5
 
 # pages
 
