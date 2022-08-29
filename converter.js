@@ -9,6 +9,11 @@ function convert() {
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/vs2015.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
   <script>hljs.highlightAll();</script>
+  <style>
+    pre > code {
+        font-family: "Sans Mono", "Consolas", "Courier", monospace;
+    }
+  </style>
 </head>
 <body>
   <pre><code class="language-xxx">
