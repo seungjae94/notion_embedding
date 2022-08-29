@@ -1,0 +1,42 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+
+        <style>
+            /* 마우스를 올려놓았을 때 */
+            a:hover {
+                font-weight: bold;
+            }
+
+            /* 클릭했을 때 */
+            p:active {
+                font-weight: bold;
+            }
+
+            /* 방문한 적 없는 링크 */
+            a:link {
+                color:green;
+            }
+
+            /* 방문한 적 있는 링크 */
+            a:visited {
+                color:brown;
+            }
+
+            /* focus 상태일 때 */
+            input[type="text"]:focus {
+                color:white;
+                background-color: darkslategray;
+            }
+        </style>
+    </head>
+    <body>  
+        <a href="http://www.tcpschool.com/css/css_selector_pseudoClass">pseudo-class란?</a><br>
+        <p>click me</p>
+        <input type="text" name="zz">
+    </body>
+</html>
+```
