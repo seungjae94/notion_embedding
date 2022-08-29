@@ -12,6 +12,8 @@ function convert() {
   <style>
     pre > code {
         font-family: "Sans Mono", "Consolas", "Courier", monospace;
+        border-radius: 8px;
+        margin: 8px;
     }
   </style>
 </head>
