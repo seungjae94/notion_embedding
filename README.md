@@ -7,7 +7,7 @@ https://seungjae94.github.io/notion_embedding/converter.html 에서 코드를 �
 
 ### 참고
 
-[1] https://stackoverflow.com/questions/62029757/nicely-formatted-python-code-in-html-files
+[1] https://stackoverflow.com/questions/62029757/nicely-formatted-python-code-in-html-files<br>
 [2] https://hdevstudy.tistory.com/5
 
 # pages
@@ -17,4 +17,6 @@ https://seungjae94.github.io/notion_embedding/input%20tag/test.html
 https://seungjae94.github.io/notion_embedding/input%20tag/select.html
 
 https://seungjae94.github.io/notion_embedding/CSS3/02/Selector/pseudo_class.html
-https://seungjae94.github.io/notion_embedding/CSS3/02/Selector/Code/pseudo_class.html
+[코드 임베드 실험] https://seungjae94.github.io/notion_embedding/CSS3/02/Selector/Code/pseudo_class.html
+
+https://seungjae94.github.io/notion_embedding/CSS3/02/Selector/pseudo_element.html
